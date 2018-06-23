@@ -149,7 +149,11 @@ body {
     border-bottom-right-radius: 5px; }
 
   #closeb {
-    left: 440px; } }
+    left: 440px; }
+
+  #nav-home-tab, #nav-service-tab, #nav-contact-tab {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   #crumbs ul li a {
     width: 250px; }
@@ -197,7 +201,7 @@ body {
   background-color: #f0f0f0;
   margin-bottom: 5px; }
 
-.myshadow, .card, .calendar, .list-group {
+.myshadow, .card, .calendar, .list-group, #addcomment {
   -webkit-box-shadow: 0 1px 4px rgba(129, 138, 144, 0.3), 0 0 40px rgba(169, 169, 169, 0.1) inset;
   -moz-box-shadow: 0 1px 4px rgba(129, 138, 144, 0.3), 0 0 40px rgba(169, 169, 169, 0.1) inset;
   box-shadow: 0 1px 4px rgba(129, 138, 144, 0.3), 0 0 40px rgba(169, 169, 169, 0.1) inset; }
@@ -212,3 +216,9 @@ body {
   width: calc(100% - 100px);
   padding: 5px;
   text-align: center; }
+
+.bactive {
+  background-color: #FA5BA5 !important;
+  color: floralwhite; }
+  .bactive:focus {
+    box-shadow: 0 0 0 0.2rem rgba(250, 91, 165, 0.17); }

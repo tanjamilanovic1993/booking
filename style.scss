@@ -178,6 +178,10 @@ body{
   #closeb {
     left: 440px
   }
+  #nav-home-tab, #nav-service-tab, #nav-contact-tab{
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   #crumbs ul li a{
@@ -273,3 +277,16 @@ body{
   padding: 5px;
   text-align: center;
 }
+
+#addcomment{
+  @extend .myshadow;
+}
+
+.bactive{
+  background-color: #FA5BA5 !important;
+  color: floralwhite;
+  &:focus{
+    box-shadow: 0 0 0 0.2rem rgba(250, 91, 165, 0.17);
+  }
+}
+
