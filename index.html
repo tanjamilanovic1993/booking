@@ -133,7 +133,7 @@
                                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                                 08:00 - 09:00
                                                 <span class="badge"
-                                                      style="background-color: #FA5BA5; color: floralwhite;"> $5 </span>
+                                                      style="background-color: #F57F5B; color: floralwhite;"> $5 </span>
                                             </li>
                                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                                 08:00 - 09:00
@@ -197,20 +197,21 @@
                                             </button>
                                             <div class="collapse" id="Fbuttons">
                                                 <div class="card card-body mt-2">
+                                                    <span class="fa fa-refresh align-self-end pb-1 text-secondary reset" aria-hidden="true"></span>
                                                     <div class="row">
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l1">
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="fp1" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
-                                                                    <button id="bed" class="btn edugmefix">1 Bedroom</button>
+                                                                    <button class="btn edugmefix">1 Bedroom</button>
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="fp2" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -219,7 +220,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="fp3" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -232,7 +233,7 @@
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l2">
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="fp4" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -241,7 +242,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="fp5" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -251,7 +252,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="fp6" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -266,11 +267,12 @@
                                             </div>
                                             <div class="collapse" id="Hbuttons">
                                                 <div class="card card-body mt-2">
+                                                    <span class="fa fa-refresh align-self-end pb-1 text-secondary reset" aria-hidden="true"></span>
                                                     <div class="row">
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l1">
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="hp1" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -279,7 +281,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="hp2" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -288,7 +290,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="hp3" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -301,7 +303,7 @@
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l2">
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="hp4" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -310,7 +312,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="hp5" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -320,7 +322,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="hp6" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -357,18 +359,19 @@
                                             </button>
                                             <div class="collapse" id="Cbuttons">
                                                 <div class="card card-body mt-2">
+                                                    <span class="fa fa-refresh align-self-end pb-1 text-secondary reset" aria-hidden="true"></span>
                                                     <div class="btn-toolbar mb-2" role="toolbar"
                                                          aria-label="Toolbar buttons for property addons l1">
-                                                        <div class="btn-group btn-group-sm mr-2" role="group"
+                                                        <div id="c1" class="btn-group btn-group-sm mr-2" role="group"
                                                              aria-label="carpets filter">
                                                             <button type="button" class="btn btn-secondary sub">-</button>
-                                                            <button class="btn edugmefix">0 Carpets</button>
+                                                            <button class="btn edugmefix">0 Carpet</button>
                                                             <button type="button" class="btn btn-secondary add">+</button>
                                                         </div>
-                                                        <div class="btn-group btn-group-sm mr-2" role="group"
+                                                        <div id="c2" class="btn-group btn-group-sm mr-2" role="group"
                                                              aria-label="rugs filter">
                                                             <button type="button" class="btn btn-secondary sub">-</button>
-                                                            <button class="btn edugmefix">0 Rugs</button>
+                                                            <button class="btn edugmefix">0 Rug</button>
                                                             <button type="button" class="btn btn-secondary add">+</button>
                                                         </div>
                                                     </div>
@@ -390,11 +393,12 @@
                                             </button>
                                             <div class="collapse" id="Ubuttons">
                                                 <div class="card card-body mt-2">
+                                                    <span class="fa fa-refresh align-self-end pb-1 text-secondary reset" aria-hidden="true"></span>
                                                     <div class="row">
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l1">
-                                                                <div class="btn-group btn-group-sm mr-2 mb-1"
+                                                                <div id="u1" class="btn-group btn-group-sm mr-2 mb-1"
                                                                      role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
@@ -404,7 +408,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2" role="group"
+                                                                <div id="u2" class="btn-group btn-group-sm mr-2" role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -413,7 +417,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="u3" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -426,7 +430,7 @@
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l2">
-                                                                <div class="btn-group btn-group-sm mr-2" role="group"
+                                                                <div id="u4" class="btn-group btn-group-sm mr-2" role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -435,7 +439,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2" role="group"
+                                                                <div id="u5" class="btn-group btn-group-sm mr-2" role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -443,7 +447,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="u6" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -471,11 +475,12 @@
                                             </button>
                                             <div class="collapse" id="Ebuttons">
                                                 <div class="card card-body mt-2">
+                                                    <span class="fa fa-refresh align-self-end pb-1 text-secondary reset" aria-hidden="true"></span>
                                                     <div class="row">
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l1">
-                                                                <div class="btn-group btn-group-sm mr-2" role="group"
+                                                                <div id="e1" class="btn-group btn-group-sm mr-2" role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -483,7 +488,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2" role="group"
+                                                                <div id="e2" class="btn-group btn-group-sm mr-2" role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -492,7 +497,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="e3" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -505,7 +510,7 @@
                                                         <div class="col-12 col-lg-6 col-xl-12">
                                                             <div class="btn-toolbar" role="toolbar"
                                                                  aria-label="Toolbar buttons for property addons l2">
-                                                                <div class="btn-group btn-group-sm mr-2" role="group"
+                                                                <div id="e4" class="btn-group btn-group-sm mr-2" role="group"
                                                                      aria-label="bedroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -514,7 +519,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm mr-2" role="group"
+                                                                <div id="e5" class="btn-group btn-group-sm mr-2" role="group"
                                                                      aria-label="bathroom filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -522,7 +527,7 @@
                                                                     <button type="button" class="btn btn-secondary add">+
                                                                     </button>
                                                                 </div>
-                                                                <div class="btn-group btn-group-sm" role="group"
+                                                                <div id="e6" class="btn-group btn-group-sm" role="group"
                                                                      aria-label="floor filter">
                                                                     <button type="button" class="btn btn-secondary sub">-
                                                                     </button>
@@ -544,45 +549,127 @@
                                         <span class="text-muted">Booking summary</span>
                                     </h5>
                                     <ul class="list-group myshadow mb-3">
-                                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                                            <div>
-                                                <h6 class="my-0">2 Bedroom</h6>
-                                                <small class="text-muted">Brief description</small>
+                                        <li class="list-group-item d-flex lh-condensed">
+                                            <div class="w-100" >
+                                                <div class="d-flex justify-content-between">
+                                                <h6 id="sproperty" class="my-0 pt-2">Property</h6>
+                                                <img class="mb-1" src="img/home.png" alt="property icon">
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> 1 Bedroom</small> <small class="text-muted">£25</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> 1 Bathroom</small> <small class="text-muted">£25</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> 1 Floor</small> <small class="text-muted">£40</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£25</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£25</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£25</small>
+                                                </div>
                                             </div>
-                                            <span class="text-muted">£90</span>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between lh-condensed">
-                                            <div>
-                                                <h6 class="my-0">1 Bathroom</h6>
-                                                <small class="text-muted">Brief description</small>
+                                            <div class="w-100">
+                                                <div class="d-flex justify-content-between">
+                                                    <h6 id="scarpets" class="my-0 pt-2">Carpets</h6>
+                                                    <img src="img/vacum.png" alt="carpets icon">
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> 1 Carpet</small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> 2 Rugs</small> <small class="text-muted">£30</small>
+                                                </div>
                                             </div>
-                                            <span class="text-muted">£20</span>
                                         </li>
-                                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                                            <div>
-                                                <h6 class="my-0">2 Carpets</h6>
-                                                <small class="text-muted">Brief description</small>
+                                        <li id="upholstery_li" class="d-none list-group-item justify-content-between lh-condensed">
+                                            <div class="w-100">
+                                                <div class="d-flex justify-content-between">
+                                                    <h6 id="supholstery" class="my-0 pt-2">Upholstery</h6>
+                                                    <img src="img/uph.png" alt="carpets icon">
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
                                             </div>
-                                            <span class="text-muted">£30</span>
                                         </li>
-                                        <li class="list-group-item d-flex justify-content-between bg-light">
-                                            <div class="text-primary">
+                                        <li id="extra_li" class="d-none list-group-item justify-content-between lh-condensed">
+                                            <div class="w-100" >
+                                                <div class="d-flex justify-content-between">
+                                                    <h6 id="sextra" class="my-0 pt-2">Extra</h6>
+                                                    <img class="mb-1" src="img/window_min.png" alt="carpets icon">
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                                <div class="d-100 d-none justify-content-between">
+                                                    <small class="text-muted"> </small> <small class="text-muted">£30</small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li id="promo_li" class="d-none list-group-item justify-content-between bg-light" style="color:#7ecdae;">
+                                            <div>
                                                 <h6 class="my-0">Promo code</h6>
                                                 <small>FIVECLEANOFF</small>
                                             </div>
-                                            <span class="text-primary">-£5</span>
+                                            <span>-£5</span>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between">
                                             <span>Total (GBP)</span>
                                             <strong>£135</strong>
                                         </li>
+                                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                            <div class="w-100">
+                                                <div class="d-flex justify-content-between">
+                                                    <h6 id="sdate" class="my-0 pt-3">Date</h6>
+                                                    <h6 id="stime" class="my-0 pt-3">Time</h6>
+                                                </div>
+                                                <div class="d-100 d-flex justify-content-between">
+                                                    <span class="text-muted small">08/10/2018 </span> <img src="img/time.png" alt="date&time icon"> <span class="text-muted small"> 09:00-10:00</span>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ul>
 
                                     <form class="card p-2">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Promo code">
+                                            <input id="redeem" type="text" class="form-control" placeholder="Try FIVECLEANOFF">
                                             <div class="input-group-append">
-                                                <button type="submit" class="btn btn-secondary">Redeem</button>
+                                                <button type="button" class="btn btn-secondary" onclick="promo()">Redeem</button>
                                             </div>
                                         </div>
                                     </form>
@@ -622,17 +709,17 @@
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between lh-condensed">
                                             <div>
-                                                <h6 class="my-0">2 Carpets</h6>
+                                                <h6 class="my-0">2 Carpet</h6>
                                                 <small class="text-muted">Brief description</small>
                                             </div>
                                             <span class="text-muted">£30</span>
                                         </li>
-                                        <li class="list-group-item d-flex justify-content-between bg-light">
-                                            <div class="text-primary">
+                                        <li class="list-group-item d-flex justify-content-between bg-light" style="color:#7ecdae;">
+                                            <div>
                                                 <h6 class="my-0">Promo code</h6>
                                                 <small>FIVECLEANOFF</small>
                                             </div>
-                                            <span class="text-primary">-£5</span>
+                                            <span>-£5</span>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between">
                                             <span>Total (GBP)</span>
@@ -642,7 +729,7 @@
 
                                     <form class="card p-2">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Promo code">
+                                            <input type="text" class="form-control" placeholder="Try FIVECLEANOFF">
                                             <div class="input-group-append">
                                                 <button type="submit" class="btn btn-secondary">Redeem</button>
                                             </div>
@@ -803,7 +890,7 @@
                                             to know?</label>
                                         <textarea id="addcomment" class="form-control mb-3">
                                         </textarea>
-                                        <button class="btn btn-primary btn-lg btn-block" type="submit">Confirm Booking
+                                        <button class="btn btn-primary shadow btn-lg btn-block" type="submit">Confirm Booking
                                         </button>
                                     </form>
                                 </div>

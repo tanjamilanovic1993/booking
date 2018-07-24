@@ -21,7 +21,7 @@ body{
   float: left;
   height: 25px;
   width: 350px;
-  background: #3498db;
+  background: #7ecdae;
   text-align: center;
   padding: 15px 20px 25px 40px;
   position: relative;
@@ -35,7 +35,7 @@ body{
   content: "";
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 20px solid #3498db;
+  border-left: 20px solid #7ecdae;
   position: absolute; right: -20px; top: 0;
   z-index: 1;
 }
@@ -66,27 +66,27 @@ body{
 
 .madaj{
   #nav-service-tab:after{
-    border-left-color: #fa5ba5;
+    border-left-color: #F57F5B;
   }
 }
 
 #nav-home-tab{
-  background-color: #fa5ba5 !important;
+  background-color: #F57F5B !important;
   &:after{
-    border-left-color: #fa5ba5 !important;
+    border-left-color: #F57F5B !important;
   }
 }
 
 .madajj{
   #nav-service-tab:after{
-    border-left-color: #3498db !important;
+    border-left-color: #7ecdae !important;
   }
 }
 
 .dosada{
   width: 28px;
   height: 28px;
-  background-color: #3498db;
+  background-color: #7ecdae;
   border: none;
   color: white;
   padding: 0px 0px 2px 8px;
@@ -100,19 +100,19 @@ body{
 }
 
 .dosada:hover {
-  background-color: #fa5ba5; /* Green */
+  background-color: #F57F5B; /* Green */
   color: white;
 }
 
 #bookb{
-  background-color: #FA5BA5;
+  background-color: #F57F5B;
   color: floralwhite;
 }
 
 .dosada1{
   width: 28px;
   height: 28px;
-  background-color: #3498db;
+  background-color: #7ecdae;
   border: none;
   color: white;
   padding: 0px 0px 2px 8px;
@@ -137,10 +137,6 @@ body{
   height: 30px;
   border-radius: 50%;
   text-align: center;
-  //box-shadow:  0 1px 2px 0 #646d73, 0 1px 4px 0 #818a90;
-  //-moz-box-shadow:0 0 8px 0 black;
-  //-webkit-box-shadow:0 0 8px 0 black;
-  //box-shadow:0 0 8px 0 black;
 }
 
 @media (max-width: 370px) {
@@ -209,7 +205,7 @@ body{
 
 .mojtemplate{
   .tooltip-inner{
-  background-color: #FA5BA5;
+  background-color: #F57F5B;
   color: floralwhite;
 }
 }
@@ -229,7 +225,7 @@ body{
     color: floralwhite;
   }
   &:target{
-    background-color: #fa5ba5;
+    background-color: #F57F5B;
   }
   &:focus{
     background-color: #6c757d;
@@ -256,15 +252,11 @@ body{
   box-shadow:0 1px 4px rgba(129, 138, 144, 0.3), 0 0 40px rgba(169, 169, 169, 0.1) inset;
 }
 
-.card{
-  border: none;
-  @extend .myshadow;
+.card {
+  .calendar {
+    @extend .myshadow;
+  }
 }
-
-.calendar{
-  @extend .myshadow;
-}
-
 .list-group{
   @extend .myshadow;
 }
@@ -283,10 +275,17 @@ body{
 }
 
 .bactive{
-  background-color: #FA5BA5 !important;
+  background-color: #F57F5B !important;
   color: floralwhite;
   &:focus{
     box-shadow: 0 0 0 0.2rem rgba(250, 91, 165, 0.17);
   }
+}
+
+.badge-info{
+  background-color: #7ecdae ;
+}
+.badge-danger{
+
 }
 
